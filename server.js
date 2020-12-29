@@ -13,12 +13,14 @@ require('dotenv').config()
 // Database & PORT
 //================
 
-const MONGODB_URI = process.env.PORT || 3002;
-mongoose.connect(MONGODB_URI , {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useFindAndModify: false
-});
+const PORT = 3002;
+
+// const MONGODB_URI = process.env.PORT || 3002;
+// mongoose.connect(MONGODB_URI , {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useFindAndModify: false
+// });
 
 //========
 // Errors
@@ -40,13 +42,13 @@ app.use(methodOverride('_method'));
 //=======
 // Routes
 //=======
-app.use('/', (req,res) => {
-  res.redirect('/home')
-})
-
-app.get('/', (req,res) => {
-  res.render('index.ejs')
-});
+// app.use('/', (req,res) => {
+//   res.redirect('/home')
+// })
+//
+// app.get('/', (req,res) => {
+//   res.render('index.ejs')
+// });
 
 //=========
 // Listener

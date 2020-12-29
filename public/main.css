@@ -1,3 +1,79 @@
-body{
-  background-color: maroon;
+
+html {
+	height: 100%;
+	/* max-height: 600px; */
+	width: 1000px;
+	background-color: hsla(200,40%,30%,.4);
+	background-image:
+		url('./imgs/cornflower_nobg.png'), /*bee*/
+		url('./imgs/lovers_nobg.png'), /*lovers*/
+		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'), /*clouds*/
+		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'), /*mountains*/
+    url('./imgs/mama-removebg-preview.png'), /*old man*/
+		url('./imgs/vaporsky2.jpg'); /*glitchsky*/
+	background-repeat: repeat-x;
+	background-position:
+		0 10%,
+		0 100%,
+		0 50%,
+		0 100%,
+    0 0,
+		0 0;
+	background-size:
+		1300px,
+		800px,
+		500px 200px,
+		1000px,
+    300px,
+		1000px;
+	animation: 50s start infinite linear;
+	}
+
+@keyframes start {
+	100% {
+		background-position:
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+      90px 0,
+			400px 0;
+		}
+	}
+
+/*
+.slide{
+  width: 100vw;
+  height: 100vh;
 }
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.one{
+  background-color: violet;
+}
+.two{
+  background-color: lightgreen;
+}
+.three{
+  background-color: dodgerblue;
+}
+.four{
+  background-color: indianred;
+}
+.outer-wrapper{
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+}
+::-webkit-scrollbar {
+  display: none;
+} */
