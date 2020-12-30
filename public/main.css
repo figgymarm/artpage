@@ -3,7 +3,7 @@ html {
 	height: 100%;
 	/* max-height: 600px; */
 	width: 1000px;
-	background-color: white;
+	background-color: #346bad;
 	background-image:
 		url('./imgs/cornflower_nobg.png '), /*bee*/
     url('./imgs/vaporsky_nobg.png'), /*car */
@@ -11,8 +11,7 @@ html {
     url('./imgs/bwriverme.png'),
 		url('./imgs/wiskeymitas_nobg1.png'), /*mountains*/
     url('./imgs/clouds.png'), /*clouds*/
-    url('./imgs/owlboy1.png'),
-		url('./imgs/bluesky.jpg'); /*glitchsky*/
+    url('./imgs/owlboy1.png');
 	background-repeat: repeat-x;
 	background-position:
 		0 10%,
@@ -31,8 +30,8 @@ html {
 		400px,
     300px,
     320px,
-		1000px;
-	animation: 60s start infinite linear;
+		0px;
+	animation: 70s start infinite linear;
 	}
 
 @keyframes start {
@@ -45,6 +44,10 @@ html {
 			1200px 100%,
       90px 0,
       1000px 5%,
-			400px 0;
+			0 0;
 		}
 	}
+#header{
+  display:flex;
+  align-items: center;
+}
