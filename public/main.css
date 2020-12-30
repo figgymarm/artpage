@@ -5,15 +5,17 @@ html {
 	width: 1000px;
 	background-color: hsla(200,40%,30%,.4);
 	background-image:
-		url('./imgs/cornflower_nobg.png'), /*bee*/
+		url('./imgs/cornflower_nobg.png '), /*bee*/
+    url('./imgs/clouds.png'), /*clouds*/
 		url('./imgs/lovers_nobg.png'), /*lovers*/
-		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'), /*clouds*/
+		url('./imgs/clouds.png'), /*clouds*/
 		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'), /*mountains*/
     url('./imgs/mama-removebg-preview.png'), /*old man*/
-		url('./imgs/vaporsky2.jpg'); /*glitchsky*/
+		url('./imgs/bluesky.jpg'); /*glitchsky*/
 	background-repeat: repeat-x;
 	background-position:
 		0 10%,
+    0 8%,
 		0 100%,
 		0 50%,
 		0 100%,
@@ -21,18 +23,20 @@ html {
 		0 0;
 	background-size:
 		1300px,
-		800px,
+		500px,
+    800px,
 		500px 200px,
 		1000px,
     300px,
 		1000px;
-	animation: 50s start infinite linear;
+	animation: 60s start infinite linear;
 	}
 
 @keyframes start {
 	100% {
 		background-position:
 			-5000px 20%,
+      -2222px 50%,
 			-800px 95%,
 			500px 50%,
 			1000px 100%,
