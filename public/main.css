@@ -3,30 +3,27 @@ html {
 	height: 100%;
 	/* max-height: 600px; */
 	width: 1000px;
-	background-color: hsla(200,40%,30%,.4);
+	background-color: white;
 	background-image:
 		url('./imgs/cornflower_nobg.png '), /*bee*/
-    url('./imgs/clouds.png'), /*clouds*/
+    url('./imgs/vaporsky_nobg.png'), /*car */
 		url('./imgs/lovers_nobg.png'), /*lovers*/
-		url('./imgs/clouds.png'), /*clouds*/
-		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'), /*mountains*/
-    url('./imgs/mama-removebg-preview.png'), /*old man*/
+		url('./imgs/wiskeymitas_nobg1.png'), /*mountains*/
+    url('./imgs/clouds.png'), /*clouds*/
 		url('./imgs/bluesky.jpg'); /*glitchsky*/
 	background-repeat: repeat-x;
 	background-position:
 		0 10%,
-    0 8%,
+    0 80%,
 		0 100%,
-		0 50%,
-		0 100%,
+		50px 100%,
     0 0,
 		0 0;
 	background-size:
 		1300px,
 		500px,
-    800px,
-		500px 200px,
-		1000px,
+    900px,
+		400px,
     300px,
 		1000px;
 	animation: 60s start infinite linear;
@@ -36,48 +33,10 @@ html {
 	100% {
 		background-position:
 			-5000px 20%,
-      -2222px 50%,
+      -2222px 75%,
 			-800px 95%,
-			500px 50%,
-			1000px 100%,
+			1200px 100%,
       90px 0,
 			400px 0;
 		}
 	}
-
-/*
-.slide{
-  width: 100vw;
-  height: 100vh;
-}
-.wrapper{
-  display: flex;
-  flex-direction: row;
-  width: 400vw;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
-}
-.one{
-  background-color: violet;
-}
-.two{
-  background-color: lightgreen;
-}
-.three{
-  background-color: dodgerblue;
-}
-.four{
-  background-color: indianred;
-}
-.outer-wrapper{
-  width: 100vh;
-  height: 100vw;
-  transform: rotate(-90deg) translateX(-100vh);
-  transform-origin: top left;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  position: absolute;
-}
-::-webkit-scrollbar {
-  display: none;
-} */
