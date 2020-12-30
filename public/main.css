@@ -7,24 +7,30 @@ html {
 	background-image:
 		url('./imgs/cornflower_nobg.png '), /*bee*/
     url('./imgs/vaporsky_nobg.png'), /*car */
-		url('./imgs/lovers_nobg.png'), /*lovers*/
+		url('./imgs/lovers.png'), /*lovers*/
+    url('./imgs/bwriverme.png'),
 		url('./imgs/wiskeymitas_nobg1.png'), /*mountains*/
     url('./imgs/clouds.png'), /*clouds*/
+    url('./imgs/owlboy1.png'),
 		url('./imgs/bluesky.jpg'); /*glitchsky*/
 	background-repeat: repeat-x;
 	background-position:
 		0 10%,
     0 80%,
 		0 100%,
+    0 80%,
 		50px 100%,
     0 0,
+    0 25%,
 		0 0;
 	background-size:
 		1300px,
 		500px,
-    900px,
+    850px,
+    550px,
 		400px,
     300px,
+    320px,
 		1000px;
 	animation: 60s start infinite linear;
 	}
@@ -35,8 +41,10 @@ html {
 			-5000px 20%,
       -2222px 75%,
 			-800px 95%,
+      -800px 95%,
 			1200px 100%,
       90px 0,
+      1000px 5%,
 			400px 0;
 		}
 	}
