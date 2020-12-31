@@ -42,13 +42,13 @@ app.use(methodOverride('_method'));
 //=======
 // Routes
 //=======
-// app.use('/', (req,res) => {
-//   res.redirect('/home')
-// })
-//
-// app.get('/', (req,res) => {
-//   res.render('index.ejs')
-// });
+app.use('/', (req,res) => {
+  res.redirect('/home')
+})
+
+app.get('/', (req,res) => {
+  res.render('index.ejs')
+});
 
 //=========
 // Listener
