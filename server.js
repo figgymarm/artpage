@@ -14,13 +14,13 @@ require('dotenv').config()
 //================
 
 const PORT = 3002;
-
 const MONGODB_URI = process.env.PORT || 3002;
 mongoose.connect(MONGODB_URI , {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
 });
+const mongoURI = process.env.MONGODB_URI
 
 //========
 // Errors
