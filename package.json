@@ -1,6 +1,9 @@
 {
   "name": "artpage",
   "version": "1.0.0",
+  "engines": {
+    "node": "v14.15.0"
+  },
   "description": "collage website",
   "main": "server.js",
   "dependencies": {
