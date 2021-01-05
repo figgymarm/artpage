@@ -8,42 +8,42 @@ html {
 		url('./imgs/cornflower_nobg.png '), /*bee*/
     url('./imgs/vaporsky_nobg.png'), /*car */
 		url('./imgs/lovers.png'), /*lovers*/
-    url('./imgs/bwriverme.png'),
+    url('./imgs/bwriverme.png'), /*me*/
 		url('./imgs/wiskeymitas_nobg1.png'), /*mountains*/
     url('./imgs/clouds.png'), /*clouds*/
     url('./imgs/owlboy1.png');
 	background-repeat: repeat-x;
 	background-position:
-		0 10%,
-    0 80%,
-		0 100%,
-    0 80%,
-		50px 100%,
+		0 130%,
+    0 120%,
+		0 90%,
+    0 85%,
+		0 85%,
     0 0,
-    0 25%,
+    0 70%,
 		0 0;
 	background-size:
-		1300px,
-		500px,
-    850px,
+		1200px,
+		700px,
+    1100px,
     550px,
-		400px,
+		700px,
     300px,
     320px,
 		0px;
 	animation: 70s start infinite linear;
-	}
+}
 
 @keyframes start {
 	100% {
 		background-position:
-			-5000px 20%,
-      -2222px 75%,
-			-800px 95%,
-      -800px 95%,
-			1200px 100%,
+			-6000px 130%,
+      -2222px 120%,
+			-800px 90%,
+      800px 85%,
+			1200px 85%,
       90px 0,
-      1000px 5%,
+      900px 40%,
 			0 0;
 		}
 	}
