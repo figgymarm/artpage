@@ -1,3 +1,4 @@
+
 html {
 	position: relative;
 	height: 100%;
@@ -48,9 +49,11 @@ html {
 		}
 	}
 .wrapper{
-  display:flex;
 	position: absolute;
+	display:flex;
+	justify-content: center;
+	width: 100%;
 }
-#header:hover{
-  color: salmon;
+#header{
+
 }
