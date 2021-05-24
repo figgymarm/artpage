@@ -1,0 +1,72 @@
+
+html {
+	position: relative;
+	height: 100%;
+	/* max-height: 600px; */
+	width: 1000px;
+	background-color: #346bad;
+	background-image:
+		url('./imgs/cornflower_nobg.png '), /*bee*/
+    url('./imgs/vaporsky_nobg.png'), /*car */
+		url('./imgs/lovers.png'), /*lovers*/
+    url('./imgs/bwriverme.png'), /*me*/
+		url('./imgs/wiskeymitas_nobg1.png'), /*mountains*/
+    url('./imgs/clouds.png'), /*clouds*/
+    url('./imgs/owlboy1.png');
+	background-repeat: repeat-x;
+	background-position:
+		0 130%,
+    0 120%,
+		0 90%,
+    0 85%,
+		0 85%,
+    0 0,
+    0 70%,
+		0 0;
+	background-size:
+		1200px,
+		700px,
+    1100px,
+    550px,
+		700px,
+    300px,
+    320px,
+		0px;
+	animation: 70s start infinite linear;
+}
+
+@keyframes start {
+	100% {
+		background-position:
+			-6000px 130%,
+      -2222px 120%,
+			-800px 90%,
+      800px 85%,
+			1200px 85%,
+      90px 0,
+      900px 40%,
+			0 0;
+		}
+	}
+.wrapper{
+<<<<<<< HEAD:public/main.css
+		position: absolute;
+		display:flex;
+		justify-content: center;
+		width: 100%;
+		margin-top: 25%;
+	}
+#header{
+  display:flex;
+  align-items: flex-end;
+=======
+	position: absolute;
+	display:flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 25%;
+>>>>>>> cdcee1d49a8b3883cef0babafa02518c788432aa:public/index.css
+}
+#header{
+
+}
