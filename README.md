@@ -1,4 +1,4 @@
-# artpage 
+# figgy marm website
 
 <p> a personal website to display my art & services <br/>
 Full MERN stack application.</p><br />
